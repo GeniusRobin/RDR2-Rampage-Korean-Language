@@ -1,0 +1,645 @@
+
+<Table>
+<Meta Author="Pez#2902"/>
+
+<!--- HOME MENU --->
+	<Translation Original="HOME" Replace="홈"/>
+	<Translation Original="Player" Replace="플레이어"/>
+	<Translation Original="Horse" Replace="말"/>
+	<Translation Original="Weapon" Replace="무기"/>
+	<Translation Original="Vehicle" Replace="이동수단"/>
+	<Translation Original="Teleport" Replace="텔레포트"/>
+	<Translation Original="Spawner" Replace="생성기"/>
+	<Translation Original="World" Replace="월드"/>
+	<Translation Original="Miscellaneous" Replace="잡다한 것들"/>
+	<Translation Original="Character Stats" Replace="캐릭터 통계"/>
+	<Translation Original="Settings" Replace="설정"/>
+	
+	<!--- HOME MENU DESCRIPTIONS--->
+	<Translation Original="Options that affect your player." Replace="당신의 플레이어에 영향을 미치는 옵션."/>
+	<Translation Original="Options that affect your horse." Replace="당신의 말에 영향을 미치는 옵션."/>
+	<Translation Original="Customize all your weapons." Replace="당신의 모든 무기 커스터마이징."/>
+	<Translation Original="Options that affect your vehicle." Replace="이동수단에 영향을 미치는 옵션."/>
+	<Translation Original="Teleport everywhere." Replace="모든 곳으로 텔레포트."/>
+	<Translation Original="Spawn and manage objects." Replace="개체 생성 및 관리를 합니다."/>
+	<Translation Original="Control the environment." Replace="환경을 제어합니다."/>
+	<Translation Original="Misc options." Replace="기타 옵션."/>
+	<Translation Original="Edit your offline character stats." Replace="당신의 오프라인 캐릭터 통계 수정."/>
+	<Translation Original="Customize the Trainer." Replace="트레이너 커스터마이징."/>
+
+
+<!--- PLAYER MENU --->
+	<Translation Original="PLAYER" Replace="플레이어 메뉴"/>
+	<Translation Original="Scenarios" Replace="시나리오"/>
+	<Translation Original="Animations" Replace="애니메이션"/>
+	<Translation Original="Wardrobe" Replace="옷장"/>
+	<Translation Original="Vision" Replace="보이는 것"/>
+	<Translation Original="Effects" Replace="이펙트"/>
+	<Translation Original="Emotes" Replace="이모트"/>
+	<Translation Original="Play Speech" Replace="플레이어 음성 재생"/>
+	<Translation Original="Moods" Replace="기분"/>
+	<Translation Original="Abilities" Replace="능력"/>
+	<Translation Original="Player Proofs" Replace="플레이어 증명"/>
+	<Translation Original="Godmode" Replace="무적"/> 
+	<Translation Original="Auto Heal" Replace="자동 회복"/> 
+	<Translation Original="Ghostmode" Replace="투명"/> 
+	<Translation Original="Infinitive Stamina" Replace="무한 체력"/> 
+	<Translation Original="Never Wanted" Replace="지명수배 되지 않음"/> 
+	<Translation Original="End Pursuit" Replace="최후의 지명수배"/> 
+	<Translation Original="Everyone Ignore" Replace="모두 무시"/> 
+	<Translation Original="Infinitive Swim" Replace="무한 수영"/> 
+	<Translation Original="No Noise" Replace="소음 없음"/> 
+	<Translation Original="Super Jump" Replace="슈퍼 점프"/> 
+	<Translation Original="Ultra Jump" Replace="울트라 점프"/> 
+	<Translation Original="Player Scale" Replace="플레이어 크기"/> 
+	<Translation Original="No Ragdoll" Replace="넘어지지 않음"/> 
+	<Translation Original="Super Run" Replace="슈퍼 달리기"/> 
+	<Translation Original="Passive Run" Replace="패시브 달리기"/>
+	<Translation Original="Player Opacity" Replace="플레이어 불투명도"/> 
+	<Translation Original="Quick Skin" Replace="빠른 스킨"/> 
+	<Translation Original="Quick Loot" Replace="빠른 전리품"/> 
+	<Translation Original="Fly Mode" Replace="비행 모드"/> 
+	<Translation Original="Collision" Replace="충돌"/> 
+	<Translation Original="Forcefield" Replace="포스필드"/> 
+	<Translation Original="Cores Never Drain" Replace="생명력 소모 방지"/> 
+	<Translation Original="Cores Overpower" Replace="생명력 회복"/> 
+	<Translation Original="Boost Cores" Replace="생명력 부스트"/> 
+	<Translation Original="Fill Player Cores" Replace="플레이어 생명력 채우기"/> 
+	<Translation Original="Heal" Replace="회복"/> 
+	<Translation Original="Clean Ped" Replace="펫 청소"/> 
+	<Translation Original="Set Config Flag" Replace="구성 플래그 설정"/> 
+	<Translation Original="Clone Player" Replace="플레이어 클론 생성"/> 
+	<Translation Original="Drink a Beer" Replace="맥주 마시기"/> 
+	<Translation Original="Drink a Whiskey" Replace="위스키 마시기"/> 
+	<Translation Original="Quick Health Cure" Replace="빠른 회복"/> 
+	<Translation Original="~COLOR_RED~Get Wanted" Replace="지명수배자 되기"/> 
+	<Translation Original="~COLOR_RED~Suicide" Replace="자살"/> 
+	<Translation Original="Play scenarios on your ped." Replace="펫에서 시나리오 재생합니다."/>
+	<Translation Original="Play animations on your ped." Replace="펫에서 애니메이션을 재생합니다."/>
+	<Translation Original="Change the clothing and walkstyle." Replace="옷과 걸음걸이를 변경합니다."/>
+	<Translation Original="Apply various timecycle modifiers." Replace="다양한 시간 주기 수정자를 적용합니다."/>
+	<Translation Original="Play some effects." Replace="일부 효과를 재생합니다."/>
+	<Translation Original="Use MP emotes." Replace="MP 이모티콘을 사용합니다."/> 
+	<Translation Original="Play ped speeches." Replace="펫의 대사를 재생합니다."/> 
+	<Translation Original="Your player becomes invincible." Replace="플레이어는 무적 상태가 됩니다."/> 
+	<Translation Original="Your player regenerates max health when damaged." Replace="플레이어는 피해를 입었을 때 최대 체력을 재생합니다."/> 
+	<Translation Original="Your player becomes invisible." Replace="당신의 플레이어가 투명해집니다."/> 
+	<Translation Original="Unlimited stamina." Replace="무제한 체력."/> 
+	<Translation Original="Never get wanted." Replace="지명수배자가 되지 않습니다."/> 
+	<Translation Original="Clears current pursuit." Replace="현재 지명수배를 없앱니다."/> 
+	<Translation Original="Every ped will ignore you." Replace="모든 펫은 당신을 무시할 것입니다."/> 
+	<Translation Original="Allows you to swim infinitive." Replace="무한대로 수영할 수 있습니다."/> 
+	<Translation Original="Your ped will make no sounds." Replace="당신의 펫은 아무 소리도 내지 않을 것입니다."/> 
+	<Translation Original="Your ped can jump higher." Replace="당신의 펫은 더 높이 뛸 수 있습니다."/>
+	<Translation Original="Your ped can jump much higher." Replace="당신의 펫은 훨씬 더 높이 뛸 수 있습니다."/>
+	<Translation Original="Change your player size." Replace="당신의 플레이어 크기를 조정합니다."/> 
+	<Translation Original="Disable ped ragdoll on impact or fall." Replace="충격이나 추락 시 펫이 넘어지는 것을 비활성화합니다."/> 
+	<Translation Original="Your ped can run super fast." Replace="당신의 펫은 초고속으로 달릴 수 있습니다."/> 
+	<Translation Original="To activate press sprint." Replace="프레스 스프린트를 활성화하려면."/> 
+	<Translation Original="Your ped speed increases passively." Replace="펫 속도는 수동적으로 증가합니다."/> 
+	<Translation Original="Set your player opacity." Replace="플레이어 불투명도를 설정합니다."/> 
+	<Translation Original="Quickly skin animals." Replace="빠르게 동물 가죽을 벗기십시오."/> 
+	<Translation Original="Loot peds a bit faster." Replace="전리품을 조금 더 빨리 얻습니다."/> 
+	<Translation Original="Activates fly mode." Replace="비행 모드를 활성화합니다."/> 
+	<Translation Original="Controls: [W] [Space]." Replace="조작키: [W] [Space]."/> 
+	<Translation Original="Disable player collision." Replace="플레이어 충돌을 비활성화합니다."/> 
+	<Translation Original="You will fall trough world." Replace="당신은 세계로 떨어질 것입니다."/> 
+	<Translation Original="Push nearby entities away." Replace="근처에 있는 개체를 밀어냅니다."/>
+	<Translation Original="Cores will never drain." Replace="생명력은 절대 소모되지 않습니다."/> 
+	<Translation Original="Enables attribute overpower." Replace="속성 회복을 활성화합니다."/> 
+	<Translation Original="Affects Health, Sprint and Dead-Eye." Replace="체력, 기력 및 데드아이에 영향을 미칩니다."/> 
+	<Translation Original="Enables attribute overpower." Replace="속성 회복을 활성화합니다."/> 
+	<Translation Original="Affects Health, Sprint and Dead-Eye." Replace="체력, 기력 및 데드아이에 영향을 미칩니다."/> 
+	<Translation Original="Fill all your cores." Replace="모든 생명력을 채우십시오."/> 
+	<Translation Original="Heal yourself." Replace="자신을 회복하세요."/> 
+	<Translation Original="Clean your ped." Replace="당신의 펫을 청소하세요."/> 
+	<Translation Original="Clean's blood and damages." Replace="피와 피해를 청소합니다."/> 
+	<Translation Original="Clones your player." Replace="플레이어를 복제합니다."/> 
+	<Translation Original="Creates a clone of your current model." Replace="현재 플레이어 모델의 복제본을 만듭니다."/> 
+	<Translation Original="Kill yourself." Replace="자신을 죽이세요."/> 
+	<Translation Original="Instant death." Replace="순간적으로 죽습니다."/> 
+	
+	<!--- HORSE MENU --->
+	<Translation Original="HORSE" Replace="말"/>
+	<Translation Original="Stats" Replace="통계"/> 
+	<Translation Original="Mobile Stable" Replace="모바일 안정"/> 
+	<Translation Original="Load / Save" Replace="실행 / 저장"/> 
+	<Translation Original="Blip" Replace="블립"/> 
+	<Translation Original="Invincible" Replace="무적"/> 
+	<Translation Original="Invisible" Replace="투명"/> 
+	<Translation Original="Stamina Never Drain" Replace="체력은 절대 소모되지 않습니다"/> 
+	<Translation Original="Never Ragdoll" Replace="넘어지지 않습니다"/> 
+	<Translation Original="Horse Scale" Replace="말 크기"/> 
+	<Translation Original="Super Speed" Replace="슈퍼 스피드"/> 
+	<Translation Original="Speed Modifier" Replace="속도 수정"/> 
+	<Translation Original="Horse Fly Mode" Replace="말의 비행 모드"/>
+	<Translation Original="Speed" Replace="속도"/>
+	<Translation Original="Cores Never Drain" Replace="생명력은 절대 소모되지 않습니다"/> 
+	<Translation Original="Horse Always Calm" Replace="항상 평온한 말"/> 
+	<Translation Original="Flaming Hooves" Replace="불타는 말의 발굽"/> 
+	<Translation Original="Fill Horse Cores" Replace="말 생명력 채우기"/> 
+	<Translation Original="Cores Overpower" Replace="생명력 무적"/> 
+	<Translation Original="Quick Boost" Replace="빠른 부스트"/> 
+	<Translation Original="Quick Stop" Replace="빠른 정지"/> 
+	<Translation Original="Heal" Replace="회복"/> 
+	<Translation Original="Clean" Replace="청소"/> 
+	<Translation Original="Always Clean" Replace="항상 깨끗함"/> 
+	<Translation Original="Clone" Replace="플레이어 복제(클론)"/> 
+	<Translation Original="Rename" Replace="이름 재설정"/>
+	<Translation Original="Set as Saddle Horse" Replace="안장 말로 설정"/>
+	<Translation Original="~COLOR_RED~Kill" Replace="죽이다"/> 
+	<Translation Original="~COLOR_RED~Delete" Replace="삭제"/> 
+	<Translation Original="HORSE ~E~[NOT ON HORSE]" Replace="말에 있지 않음"/> 
+	<Translation Original="Teleport horse to me" Replace="말이 나에게 순간이동"/> 
+	<Translation Original="Teleport to horse" Replace="말에게 순간이동"/> 
+	<Translation Original="Revive own horse" Replace="자신의 말 소생"/> 
+	<Translation Original="HORSE STATS" Replace="말 통계"/>
+	<Translation Original="Gender" Replace="성별"/> 
+	<Translation Original="Max Horse Cores" Replace="최대 말 생명력"/> 
+	<Translation Original="Max Horse Bonding" Replace="최대 말 본딩"/> 
+	<Translation Original="Health Core" Replace="건강한 생명력"/> 
+	<Translation Original="Stamina Core" Replace="스태미나 생명력"/> 
+	<Translation Original="Handling Level" Replace="핸들링 순위"/> 
+	<Translation Original="Speed Level" Replace="속도 순위"/> 
+	<Translation Original="Acceleration Level" Replace="가속 순위"/> 
+	<Translation Original="Bonding Level" Replace="본딩 순위"/> 
+	<Translation Original="Weight" Replace="무게"/> 
+	<Translation Original="Max all your horse cores." Replace="모든 말 생명력을 최대화하십시오."/> 
+	<Translation Original="Max horse bonding." Replace="최대 말 본딩"/> 
+	<Translation Original="MOBILE STABLE" Replace="모바일 마구간"/>
+	<Translation Original="Random Components" Replace="임의 구성 요소"/> 
+	<Translation Original="Remove all Components" Replace="모든 구성 요소 제거"/> 
+	<Translation Original="Saddle" Replace="안장"/> 
+	<Translation Original="Saddle-Clothes" Replace="안장 옷"/> 
+	<Translation Original="Horns" Replace="어느 한 쪽"/> 
+	<Translation Original="Stirrups" Replace="등자"/> 
+	<Translation Original="Bags" Replace="가방"/> 
+	<Translation Original="Luggage" Replace="수화물"/> 
+	<Translation Original="Mane" Replace="나"/> 
+	<Translation Original="Tail" Replace="꼬리"/> 
+	<Translation Original="Enable Horse Component" Replace="말 구성 요소 활성화"/> 
+	<Translation Original="Enable a Horse Component by Hash." Replace="해쉬로 말 구성 요소를 활성화합니다."/> 
+	<Translation Original="HORSE LOADER" Replace="말 로더"/>
+	<Translation Original="Save current horse" Replace="현재 말 저장"/> 
+	<Translation Original="Load Horse" Replace="말 로드"/> 
+	<Translation Original="HORSE BLIP" Replace="말 블립"/>
+	<Translation Original="Add Blip" Replace="블립 추가"/> 
+	<Translation Original="Teleport to blip horse" Replace="블립 말로 텔레포트"/> 
+	<Translation Original="Teleport blip horse to you" Replace="당신에게 순간 이동 블립 말"/> 
+	<Translation Original="Add a blip to this horse." Replace="이 말에 블립을 추가하십시오."/> 
+	<Translation Original="Teleport you to your blip horse." Replace="당신을 당신의 블립 말로 텔레포트합니다."/> 
+	<Translation Original="Teleport your blip horse to yourself." Replace="블립 말을 자신에게 텔레포트합니다."/>
+	<Translation Original="SCENARIOS" Replace="시나리오"/>
+	<Translation Original="Stop Playing" Replace="재생 중지"/> 
+	<Translation Original="Stop Playing Immediately" Replace="즉시 재생 중지"/> 
+	<Translation Original="Use nearest" Replace="가장 가까운 곳에서 사용"/> 
+	<Translation Original="ANIMATIONS" Replace="애니메이션"/> 
+	<Translation Original="Play Custom" Replace="플레이 커스텀"/> 
+	<Translation Original="Dictionaries" Replace="사전"/>
+	<Translation Original="CUSTOM ANIMATIONS" Replace="커스텀 애니메이션"/> 
+	<Translation Original="Anim Flags" Replace="애니메이션 플래그"/> 
+	<Translation Original="Play Animation" Replace="플레이어 애니메이션"/> 
+	<Translation Original="Stop Animation" Replace="애니메이션 중지"/> 
+<Translation Original="American Paint" Replace="아메리칸 페인트"/>
+<Translation Original="American Standardbred" Replace="아메리칸 스탠다드브레드"/>
+<Translation Original="Andalusian" Replace="안달루시아"/>
+<Translation Original="Appaloosa" Replace="애팔루사"/>
+<Translation Original="Arabian" Replace="아라비안"/>
+<Translation Original="Ardennes" Replace="아르덴"/>
+<Translation Original="Belgian" Replace="벨기엔"/>
+<Translation Original="Thoroughbred" Replace="우수한"/>
+<Translation Original="Turkoman" Replace="투르크멘"/>
+<Translation Original="Breton" Replace="브르타뉴어"/>
+<Translation Original="Criollo" Replace="크리올로"/>
+<Translation Original="Dutch Warmblood" Replace="네덜란드 온혈"/>
+<Translation Original="Gypsy Cob" Replace="집시 코브"/>
+<Translation Original="Hungarian Halfbred" Replace="헝가리 하프브레드"/>
+<Translation Original="Kentucky Saddler" Replace="켄터키 새들러"/>
+<Translation Original="Klardruber" Replace="클라드루버"/>
+<Translation Original="Missouri Fox Trotter" Replace="미주리 폭스 트로터"/>
+<Translation Original="Morgan" Replace="모건"/>
+<Translation Original="Mustang" Replace="머스탱"/>
+<Translation Original="Nokota" Replace="노코타"/>
+<Translation Original="Norfolk Roadster" Replace="노퍽 로드스터"/>
+<Translation Original="Shire" Replace="샤이어"/>
+<Translation Original="Suffolk Punch" Replace="서퍽 펀치"/>
+<Translation Original="Tennessee Walker" Replace="테네시 워커"/>
+<Translation Original="Scrawny Nag" Replace="스크로니 내그"/>
+<Translation Original="Mule Painted" Replace="뮬 페인트"/>
+<Translation Original="Murfree Blanket" Replace="머프리 담요"/>
+<Translation Original="Murfree Blue Roan" Replace="머프리 블루론"/>
+<Translation Original="Murfree Black Rabicano" Replace="머프리 블랙 라비카노"/>
+<Translation Original="Horse Winter" Replace="말의 겨울"/>
+
+
+//Weapon
+<Translation Original="Manage Weapons" Replace="무기 관리"/>
+<Translation Original="Ammo modifiers" Replace="탄약 수정"/>
+<Translation Original="Aimbot" Replace="에임봇"/>
+<Translation Original="Visuals" Replace="외관"/>
+<Translation Original="Modifiers" Replace="수식어"/>
+<Translation Original="Dual Wield" Replace="양손 휘두르기"/>
+<Translation Original="Always Killcam" Replace="항상 킬 카메라"/>
+<Translation Original="Weapon Mods" Replace="무기 모드"/>
+<Translation Original="Slow Motion on Aiming" Replace="조준 시 슬로우 모션"/>
+<Translation Original="First Person on Aim" Replace="첫 번째 사람 조준"/>
+<Translation Original="Rapid Fire" Replace="빠른 소이탄"/>
+<Translation Original="Rapid Gun" Replace="빠른 사격"/>
+<Translation Original="Auto Cock" Replace="자동 수탉"/>
+<Translation Original="Tenfold Bullets" Replace="10배 총알"/>
+<Translation Original="Explosive Ammo" Replace="폭발성 탄약"/>
+<Translation Original="Fire Ammo" Replace="화재성 탄약"/>
+<Translation Original="Infinite Ammo" Replace="무한 탄약"/>
+<Translation Original="No Reload" Replace="장전 우회"/>
+<Translation Original="One Hit Kill" Replace="원 히트 킬"/>
+<Translation Original="Super Punch" Replace="슈퍼 펀치"/>
+<Translation Original="Teleport Gun" Replace="순간이동 총"/>
+<Translation Original="Lightning Strike Gun" Replace="번개 충격 총"/>
+<Translation Original="Thunder Hawk" Replace="천둥 호크"/>
+<Translation Original="Gravity Gun" Replace="중력 총"/>
+<Translation Original="Magnet Gun" Replace="자석 총"/>
+<Translation Original="Pickup Gun" Replace="물체 픽업 총"/>
+<Translation Original="Portal Gun" Replace="포탈 총"/>
+<Translation Original="Perfect Pelt Gun" Replace="던지기 완벽한 총"/>
+<Translation Original="Force Gun" Replace="포스 총"/>
+<Translation Original="Freeze Gun" Replace="얼리는 총"/>
+<Translation Original="Drive it Gun" Replace="운전 총"/>
+<Translation Original="Weapon Laser" Replace="무기 레이저"/>
+<Translation Original="Debug Gun" Replace="디버그 총"/>
+<Translation Original="Delete Gun" Replace="삭제 총"/>
+<Translation Original="Revive Gun" Replace="소생 총"/>
+<Translation Original="Disco Lantern" Replace="디스코 랜턴"/>
+<Translation Original="Weapon Locker" Replace="무기 보관함"/>
+<Translation Original="Give all Weapons" Replace="모든 무기 얻기"/>
+<Translation Original="Remove current Weapon" Replace="현재 총 삭제"/>
+<Translation Original="Drop current Weapon" Replace="현재 총 버리기"/>
+<Translation Original="Remove all Weapons" Replace="모든 총 삭제"/>
+<Translation Original="Upgrade Weapon" Replace="무기 업그레이드"/>
+<Translation Original="Add Component" Replace="구성 요소 추가"/>
+<Translation Original="Fill Ammo" Replace="탄약 채우기"/>
+<Translation Original="Remove All Ammo" Replace="모든 탄약 삭제"/>
+<Translation Original="Apply Dirt" Replace="먼지 적용"/>
+<Translation Original="Auto-Clean Weapon" Replace="총 자동 청소"/>
+<Translation Original="Auto-Clean" Replace="자동 청소"/>
+<Translation Original="Melee" Replace="근접 무기"/>
+<Translation Original="Revolvers" Replace="리볼버"/>
+<Translation Original="Pistols" Replace="피스톨"/>
+<Translation Original="Repeaters" Replace="리피터"/>
+<Translation Original="Rifles" Replace="라이플"/>
+<Translation Original="Shotguns" Replace="샷건"/>
+<Translation Original="Snipers" Replace="스나이퍼"/>
+<Translation Original="Throwing" Replace="투척 무기"/>
+<Translation Original="Explosion Type" Replace="폭발류"/>
+<Translation Original="Bullet Type" Replace="총알류"/>
+<Translation Original="PTFX Gun" Replace="PTFX 총"/>
+<Translation Original="Size Gun" Replace="크기 총"/>
+<Translation Original="Coords Gun" Replace="좌표 총"/>
+<Translation Original="Remote Cannonball" Replace="원격 포탄"/>
+<Translation Original="Ped Gun" Replace="펫 총"/>
+<Translation Original="Vehicle Gun" Replace="자동차 총"/>
+<Translation Original="Invisible Weapon" Replace="보이지 않는 무기"/>
+<Translation Original="Custom Crosshair" Replace="커스텀 조준경"/>
+<Translation Original="Crosshair Color" Replace="조준경 색깔"/>
+<Translation Original="Clear Dead Eye" Replace="데드아이 초기화"/>
+<Translation Original="Disable Radial Reticle" Replace="광선 십자선 비활성화"/>
+<Translation Original="Disable Hitmarker" Replace="히트 마커 비활성화"/>
+<Translation Original="Disable Hit Feedback" Replace="히트 피드백 비활성화"/>
+<Translation Original="Enable" Replace="활성화"/>
+<Translation Original="Scale" Replace="크기"/>
+<Translation Original="Damage Modifier" Replace="데미지 수정"/>
+<Translation Original="Melee Modifier" Replace="근접 무기 수정"/>
+<Translation Original="Defense Modifier" Replace="방어 수정"/>
+<Translation Original="Accuracy" Replace="정확성"/>
+<Translation Original="Reset" Replace="초기화"/>
+<Translation Original="Enlarge" Replace="확장"/>
+<Translation Original="Shrink" Replace="수축"/>
+<Translation Original="Normalizw" Replace="표준화"/>
+<Translation Original="Targeting Mode" Replace="목표 조준 모드"/>
+<Translation Original="Prioritize" Replace="우선 순위"/>
+<Translation Original="Auto Shoot" Replace="자동 발사"/>
+<Translation Original="Auto First Person on Aiming." Replace="조준 시 자동 1인칭 변경."/>
+<Translation Original="Switch to first person before enabling!" Replace="활성화하기 전에 1인칭으로 ​​전환하세요!"/>
+<Translation Original="Use Homing Tomahawk." Replace="던지는 토마호크를 사용합니다."/>
+<Translation Original="Set two teleport portals." Replace="두 개의 텔레포트 포털을 설정합니다."/>
+<Translation Original="Press [Shift] to switch portal creation." Replace="포털 생성을 전환하려면 [Shift]를 누르세요."/>
+<Translation Original="Freeze aimed Entities." Replace="조준된 엔티티를 정지시킵니다."/>
+<Translation Original="Press [Shift] while aiming to switch modes." Replace="모드 전환을 조준한 상태에서 [Shift]를 누릅니다."/>
+<Translation Original="Disco Lightning. Does not work with electric lantern." Replace="디스코 라이트닝. 전기 랜턴에서는 작동하지 않습니다."/>
+<Translation Original="Lockon Range" Replace="잠금 범위"/>
+<Translation Original="Alpha" Replace="알파"/>
+
+
+//이동수단
+<Translation Original="Train Creator" Replace="기차 생성기"/>
+<Translation Original="Vehicle AI" Replace="이동수단 AI"/>
+<Translation Original="Chauffeur" Replace="운전사"/>
+<Translation Original="Paint Options" Replace="도색 옵션"/>
+<Translation Original="Propsets" Replace="소품"/>
+<Translation Original="Customization" Replace="커스터마이징"/>
+<Translation Original="Invincible Vehicle" Replace="무적 이동수단"/>
+<Translation Original="Invisible Vehicle" Replace="보이지 않는 이동수단"/>
+<Translation Original="Ghost Vehicle" Replace="유령 이동수단"/>
+<Translation Original="Vehicle Opacity" Replace="이동수단 불투명도"/>
+<Translation Original="Vehicle Fly Mode" Replace="이동수단 비행 모드"/>
+<Translation Original="Speed Boost" Replace="속도 향상"/>
+<Translation Original="Train Boost" Replace="기차 부스트"/>
+<Translation Original="Stick to Ground" Replace="지면에 달라붙다"/>
+<Translation Original="Repair" Replace="수리하다"/>
+<Translation Original="Flip" Replace="휙 던지다"/>
+<Translation Original="Detach Wheels" Replace="바퀴 분리"/>
+<Translation Original="Stop" Replace="정지"/>
+<Translation Original="~COLOR_RED~Delete Vehicle" Replace="~COLOR_RED~이동수단 삭제"/>
+<Translation Original="Configuration" Replace="구성"/>
+<Translation Original="Direction" Replace="방향"/>
+<Translation Original="AI Controlled" Replace="AI 제어"/>
+<Translation Original="Spawn" Replace="소환"/>
+<Translation Original="Delete" Replace="삭제"/>
+<Translation Original="Teleport to blip vehicle" Replace="블립 차량으로 텔레포트"/>
+<Translation Original="Teleport blip vehicle to you" Replace="당신에게 블립 차량을 순간이동"/>
+<Translation Original="Drive to Waypoint" Replace="목적지로 운행"/>
+<Translation Original="Drive around" Replace="운행"/>
+<Translation Original="Spawn Chauffeur" Replace="운전사 소환"/>
+<Translation Original="Spawn (Custom)" Replace="소환(커스텀)"/>
+<Translation Original="Tint" Replace="색조"/>
+<Translation Original="Livery" Replace="제복"/>
+<Translation Original="Remove all" Replace="모두 삭제"/>
+
+//텔포
+<Translation Original="Teleport to Waypoint" Replace="목적지로 순간이동"/>
+<Translation Original="Auto Teleport to Waypoint" Replace="목적지로 자동 순간이동"/>
+<Translation Original="Remove Waypoint" Replace="목적지 삭제"/>
+<Translation Original="Teleport Animation" Replace="목적지 애니메이션"/>
+<Translation Original="Custom Locations" Replace="커스텀 위치"/>
+<Translation Original="Save current location" Replace="현재 위치 저장"/>
+<Translation Original="Custom coords" Replace="맞춤 좌표"/>
+<Translation Original="Load custom location" Replace="커스텀 위치 실행"/>
+<Translation Original="Locations" Replace="위치"/>
+<Translation Original="Camps and Safehouses" Replace="캠프 및 은신처"/>
+<Translation Original="Shops and Co." Replace="판매점 및 회사"/>
+<Translation Original="Mid-Eastern Locations" Replace="중동 지역"/>
+<Translation Original="Saint Denis Locations" Replace="생드니 지역"/>
+<Translation Original="North East Locations" Replace="북동 지역"/>
+<Translation Original="Northern Locations" Replace="북부 지역"/>
+<Translation Original="North West Locations" Replace="북서 지역"/>
+<Translation Original="South West Locations" Replace="남서 지역"/>
+<Translation Original="Off-land Locations" Replace="오프 랜드 장소"/>
+<Translation Original="Unfinished Locations" Replace="미완성 장소"/>
+<Translation Original="Special Locations" Replace="특별한 장소"/>
+<Translation Original="Directional" Replace="방향"/>
+<Translation Original="Forward" Replace="앞"/>
+<Translation Original="Backward" Replace="뒤"/>
+<Translation Original="Vehicle / Horse" Replace="이동수단 / 말"/>
+<Translation Original="Last Vehicle" Replace="마지막 이동수단"/>
+<Translation Original="Last Horse" Replace="마지막 말"/>
+<Translation Original="Nearest Vehicle" Replace="근처 이동수단"/>
+<Translation Original="Nearest Train Track" Replace="근처 철도"/>
+<Translation Original="Common Locations" Replace="일반적인 위치"/>
+<Translation Original="Shops" Replace="판매점"/>
+<Translation Original="Gunsmiths" Replace="총포상"/>
+<Translation Original="Doctors" Replace="병원"/>
+<Translation Original="Theaters" Replace="극장"/>
+<Translation Original="Barbers" Replace="미용"/>
+<Translation Original="Photo studios" Replace="사진관"/>
+<Translation Original="Hotels" Replace="호텔"/>
+<Translation Original="Fences" Replace="울타리"/>
+<Translation Original="Post stations" Replace="우체국"/>
+<Translation Original="Tailors" Replace="재단점"/>
+<Translation Original="Butchers" Replace="정육점"/>
+<Translation Original="Stable" Replace="안정적인"/>
+<Translation Original="Saloons" Replace="술집"/>
+<Translation Original="Trappers" Replace="트래퍼"/>
+<Translation Original="Show on Map" Replace="지도에 표시"/>
+<Translation Original="Off" Replace="끄기"/>
+
+//Stats
+<Translation Original="Misc" Replace="기타"/>
+<Translation Original="Cash" Replace="돈"/>
+<Translation Original="Loot" Replace="루트"/>
+<Translation Original="Honor" Replace="명예"/>
+<Translation Original="Bounty" Replace="하사품"/>
+<Translation Original="Unlocks" Replace="언락"/>
+<Translation Original="Collectibles" Replace="수집품"/>
+<Translation Original="Cores" Replace="생명력"/>
+<Translation Original="Reveal Map" Replace="맵 나타내기"/>
+<Translation Original="Set Weight" Replace="무게 설정"/>
+<Translation Original="Reset Journal" Replace="신문 초기화"/>
+<Translation Original="Player Stats" Replace="플레이어 스탯"/>
+<Translation Original="Deaths" Replace="죽음"/>
+<Translation Original="Kills" Replace="살해"/>
+<Translation Original="Headshots" Replace="헤드샷"/>
+<Translation Original="Shots" Replace="샷"/>
+<Translation Original="Completed Missions" Replace="미션 완료"/>
+<Translation Original="Crafted Items" Replace="製作的物品"/>
+<Translation Original="Looted Peds" Replace="掠夺"/>
+<Translation Original="Times Cheated" Replace="作弊次数"/>
+<Translation Original="Total Bounty" Replace="总赏金"/>
+<Translation Original="Cash Earned" Replace="赚取"/>
+<Translation Original="Cash Spend" Replace="支出"/>
+<Translation Original="Playing Time" Replace="游戏时间"/>
+<Translation Original="Completion" Replace="完成"/>
+<Translation Original="Add Cash" Replace="增加现金"/>
+<Translation Original="Remove Cash" Replace="移除现金"/>
+<Translation Original="Drop Cash" Replace="掉落现金"/>
+<Translation Original="Amount" Replace="数量"/>
+<Translation Original="Model" Replace="模型"/>
+<Translation Original="Cash Bag Drop" Replace="现金袋掉落"/>
+<Translation Original="Money Gun" Replace="金钱枪"/>
+<Translation Original="Total Money dropped " Replace="总金额下降"/>
+<Translation Original="Misc Drop" Replace="기타 놓기"/>
+<Translation Original="Rain Weapons" Replace="떨어지는 무기"/>
+<Translation Original="Drop Ammo" Replace="탄약 놓기"/>
+<Translation Original="Give Items" Replace="刷食物"/>
+<Translation Original="Spawn Goodie Chest" Replace="刷食物箱"/>
+<Translation Original="Spawn Med Chest" Replace="刷医疗箱"/>
+<Translation Original="Spawn Cash Chest" Replace="刷金条箱"/>
+<Translation Original="Unlimited Items" Replace="无限物品"/>
+<Translation Original="Max Items" Replace="最大项目"/>
+<Translation Original="Custom Input (StringHash)" Replace="自定义输入 (Hash)"/>
+<Translation Original="Current Honor" Replace="荣誉值"/>
+<Translation Original="Set Honor" Replace="荣誉值数量"/>
+<Translation Original="Add Honor" Replace="增加"/>
+<Translation Original="Remove Honor" Replace="减少"/>
+<Translation Original="Add Positive" Replace="增加"/>
+<Translation Original="Add Negative" Replace="减少"/>
+<Translation Original="Custom Honor" Replace="自订荣誉值"/>
+<Translation Original="Current Bounty" Replace="赏金"/>
+<Translation Original="Bounty Value" Replace="赏金值"/>
+<Translation Original="Increase Bounty" Replace="增加赏金"/>
+<Translation Original="Decrease Bounty" Replace="减少赏金"/>
+<Translation Original="Clear Bounty" Replace="清除赏金"/>
+<Translation Original="States" Replace="状态"/>
+<Translation Original="Lemoyne" Replace="雷莫恩"/>
+<Translation Original="West Elizabeth" Replace="西伊丽莎白"/>
+<Translation Original="New Hanover" Replace="新汉诺威"/>
+<Translation Original="Ambarino" Replace="安巴里诺"/>
+<Translation Original="New Austin" Replace="新奥斯汀"/>
+<Translation Original="Cheat Codes" Replace="치트(핵) 코드"/>
+<Translation Original="Dreamcatchers" Replace="드림캐쳐"/>
+<Translation Original="Dino Bones" Replace="공룡뼈"/>
+<Translation Original="Rock Carvings" Replace="石刻"/>
+<Translation Original="Exotics" Replace="异国情调"/>
+<Translation Original="Legendary Animals Locations" Replace="传说动物地点"/>
+<Translation Original="Cigarette Cards" Replace="香烟卡"/>
+<Translation Original="Auto Collect All" Replace="自动收集全部"/>
+<Translation Original="Famous Gunslingers" Replace="着名枪手"/>
+<Translation Original="Artists and Poets" Replace="艺术家和诗人"/>
+<Translation Original="Vistas of America" Replace="美国远景"/>
+<Translation Original="Gems of Beauty" Replace="美丽的宝石"/>
+<Translation Original="Flora of North America" Replace="北美植物群"/>
+<Translation Original="Stars of the Stage" Replace="舞台之星"/>
+<Translation Original="Fauna of North America" Replace="北美动物群"/>
+<Translation Original="Marvels of Travel" Replace="旅行奇蹟"/>
+<Translation Original="World's Champions" Replace="世界冠军"/>
+<Translation Original="Amazing Inventions" Replace="惊人的发明"/>
+<Translation Original="Add Health Points" Replace="增加生命点"/>
+<Translation Original="Add Stamina Points" Replace="增加耐力点"/>
+<Translation Original="Add Dead Eye Points" Replace="增加死眼点"/>
+<Translation Original="Permanently" Replace="永久"/>
+<Translation Original="Max Health" Replace="最大生命"/>
+<Translation Original="Max Dead Eye" Replace="最大死眼"/>
+<Translation Original="Max Health Core" Replace="最大生命核心"/>
+<Translation Original="Max Stamina Core" Replace="最大耐力核心"/>
+<Translation Original="Max Dead Eye Core" Replace="最大死眼核心"/>
+<Translation Original="Temporary" Replace="暂时的"/>
+<Translation Original="Max Health" Replace="最大生命"/>
+<Translation Original="Max Dead Eye" Replace="最大死眼"/>
+<Translation Original="Custom" Replace="커스텀"/>
+<Translation Original="Dead Eye Core" Replace="데드아이 코어"/>
+//food
+<Translation Original="Apple" Replace="사과"/>
+<Translation Original="Baked Beans" Replace="구운 콩"/>
+<Translation Original="Bread Roll" Replace="롤빵"/>
+<Translation Original="Candy" Replace="사탕"/>
+<Translation Original="Canned Apricots" Replace="통조림 살구"/>
+<Translation Original="Canned Corn" Replace="캔 옥수수"/>
+<Translation Original="Canned Salmon" Replace="통조림 연어"/>
+<Translation Original="Cheese" Replace="치즈"/>
+<Translation Original="Chewing Tobaco" Replace="씹는 담배"/>
+<Translation Original="Chocolate" Replace="초콜릿"/>
+<Translation Original="Cigarettes" Replace="담배"/>
+<Translation Original="Coffee" Replace="커피"/>
+<Translation Original="Assorted Biscuits" Replace="모듬 비스킷"/>
+<Translation Original="Corn" Replace="옥수수"/>
+<Translation Original="Cracker" Replace="크래커"/>
+<Translation Original="Fine Brandy" Replace="고급 브랜디"/>
+<Translation Original="Gin" Replace="진"/>
+<Translation Original="Guarma Rum" Replace="구아르마 럼"/>
+<Translation Original="Hair Tonic" Replace="헤어 토닉"/>
+<Translation Original="Health Cure" Replace="헬스 큐어"/>
+<Translation Original="Kentucky Bourbon" Replace="켄터키 버번"/>
+<Translation Original="Miracle Tonic" Replace="미라클 토닉"/>
+<Translation Original="Moonshine" Replace="달빛"/>
+<Translation Original="Pomade" Replace="포마드"/>
+<Translation Original="Salted Beef" Replace="소금에 절인 쇠고기"/>
+<Translation Original="Salted Wild Beef" Replace="소금에 절인 야생 쇠고기"/>
+<Translation Original="Snake Oil" Replace="뱀 기름"/>
+<Translation Original="Cash Clip" Replace="돈 클립"/>
+<Translation Original="Cash Stack" Replace="돈 스택"/>
+<Translation Original="Gold Bar" Replace="골드 바"/>
+//recovery
+<Translation Original="Unlock Checks" Replace="수표 잠금 해제"/>
+<Translation Original="American Dialogue Receptive" Replace="미국 대화 수용"/>
+<Translation Original="American Dialogue Trusted" Replace="신뢰할 수 있는 미국 대화"/>
+<Translation Original="Arthurs Grave Scene" Replace="아서의 무덤 장면"/>
+<Translation Original="Bandit Challenges" Replace="산적 도전"/>
+<Translation Original="Compendium" Replace="제요"/>
+<Translation Original="Content Special Edition" Replace="스페셜 콘텐츠 에디션"/>
+<Translation Original="Content Pre-Order Digital" Replace="콘텐츠 선주문 디지털"/>
+<Translation Original="Content Pre-Order Items Redeeme" Replace="콘텐츠 선주문 항목 교환"/>
+<Translation Original="Content Pre-Order" Replace="콘텐츠 선주문"/>
+<Translation Original="Cross Promotion Hatchet" Replace="교차 프로모션 손도끼"/>
+<Translation Original="Cross Promotion Revolver" Replace="교차 프로모션 리볼버"/>
+<Translation Original="Dualwield Weapon" Replace="쌍수 무기"/>
+<Translation Original="Edition Special Redeeme" Replace="특별 에디션 교환"/>
+<Translation Original="Endless Summer Weapons" Replace="끝없는 여름 무기"/>
+<Translation Original="Endless Summer" Replace="끝이없는 여름"/>
+<Translation Original="Explorer Challenges" Replace="익스플로러 챌린지"/>
+<Translation Original="Explosive Ammo Shotgun" Replace="폭발성 탄약 산탄총"/>
+<Translation Original="Gambler Challenges" Replace="도박꾼의 도전"/>
+<Translation Original="Guarma Appearance Active" Replace="구아르마 활성 상태"/>
+<Translation Original="Herbalist Challenges" Replace="약초상 도전"/>
+<Translation Original="Horseman Challenges" Replace="말 관리 도전"/>
+<Translation Original="Hunting Challenges" Replace="사냥 도전"/>
+<Translation Original="Mud3 Killed Witness" Replace="Mud3 살해 목격자"/>
+<Translation Original="Orbis Day One Redeeme" Replace="Orbis 1일차 교환"/>
+<Translation Original="Orbis Day One" Replace="Orbis 1일 차"/>
+<Translation Original="Peds React to Sick Arthur" Replace="펫들은 아픈 아서에 반응합니다."/>
+<Translation Original="Post Gang 1" Replace="뒤쪽 1"/>
+<Translation Original="RDCH3 Dynamite" Replace="RDCH3 폭탄"/>
+<Translation Original="SP Achievments" Replace="SP 업적"/>
+<Translation Original="Sharpshooter Challenges" Replace="도전과제 명사수"/>
+<Translation Original="Survivalist Challenges" Replace="도전과제 생존주의자"/>
+<Translation Original="Weapon Challenges" Replace="도전과제 무기"/>
+<Translation Original="Weapons" Replace="무기"/>
+<Translation Original="Unlock all Weapons" Replace="모든 무기 잠금해제"/>
+<Translation Original="Discover Herbs" Replace="허브들 발견"/>
+<Translation Original="Discover Horses" Replace="말들 발견"/>
+<Translation Original="Discover Animals" Replace="동물들 발견"/>
+<Translation Original="Discover Fish" Replace="물고기 발견"/>
+<Translation Original="Discover Fishes" Replace="물고기들 발견"/>
+<Translation Original="Discover Gangs" Replace="갱 발견"/>
+
+//Setting
+<Translation Original="SETTINGS" Replace="설정"/>
+<Translation Original="Search" Replace="검색"/>
+<Translation Original="Core" Replace="생명력"/>
+<Translation Original="Window Manager" Replace="윈도우 관리자"/>
+<Translation Original="Extended UI" Replace="UI"/>
+<Translation Original="Theme" Replace="테마"/>
+<Translation Original="Plugins" Replace="플러그인"/>
+<Translation Original="Language" Replace="언어"/>
+<Translation Original="Hotkey Manager" Replace="핫키 관리자"/>
+<Translation Original="Navigation Delay" Replace="탐색 지연"/>
+<Translation Original="Value Delay" Replace="값 지연"/>
+<Translation Original="Search for an Option" Replace="옵션 검색"/>
+<Translation Original="Debug" Replace="디버그"/>
+<Translation Original="Mouse controls" Replace="입 조종"/>
+<Translation Original="Controller controls" Replace="컨트롤러 조종"/>
+<Translation Original="Menu Sounds" Replace="메뉴 소리"/>
+<Translation Original="Check for Updates" Replace="업데이트 확인"/>
+<Translation Original="Emergency Reset" Replace="비상 초기화"/>
+<Translation Original="Landing Page" Replace="~COLOR_RED~방문 페이지"/>
+<Translation Original="Open Log" Replace="로그 열기"/>
+<Translation Original="Open Sysinfo" Replace="시스템 정보 열기"/>
+<Translation Original="Open Performance" Replace="공연 열기"/>
+<Translation Original="Open Hotkeys" Replace="핫키 열기"/>
+<Translation Original="Close all" Replace="모두 닫기"/>
+<Translation Original="Reset Windows" Replace="윈도우 초기화"/>
+<Translation Original="Open Info" Replace="정보 열기"/>
+<Translation Original="Window Activators" Replace="윈도우 활동"/>
+<Translation Original="Teleport map" Replace="맵 순간이동"/>
+<Translation Original="Spawner Previews" Replace="스포너 미리보기"/>
+<Translation Original="Invert Colors" Replace="색상 반전"/>
+<Translation Original="Smooth Scrolling" Replace="부드러운 스크롤링"/>
+<Translation Original="Scroll Anim Speed" Replace="스크롤 애니메이션 속도"/>
+<Translation Original="Cursor Hotkey" Replace="커서 핫키"/>
+<Translation Original="Cursor Key" Replace="커서 키"/>
+<Translation Original="Teleport Hotkey" Replace="핫키 이동"/>
+<Translation Original="Teleport Key" Replace="키 이동"/>
+<Translation Original="Creator Hotkey" Replace="핫키 생성"/>
+<Translation Original="Cmd Hotkey" Replace="Cmd 핫키"/>
+<Translation Original="Cmd Key" Replace="Cmd 키"/>
+<Translation Original="Save Hotkey Config" Replace="핫키 구성 저장"/>
+<Translation Original="Load Hotkey Config" Replace="핫키 구성 로드"/>
+<Translation Original="Open Key" Replace="키 열기"/>
+<Translation Original="Gamepad Open Key" Replace="게임패드 키 열기"/>
+<Translation Original="Premade themes" Replace="미리 만들어진 테마"/>
+<Translation Original="Save current settings" Replace="현재 설정 저장"/>
+<Translation Original="Load settings from file" Replace="파일에서 설정 로드"/>
+<Translation Original="Sync Toggle Config" Replace="동기화 토글 구성"/>
+<Translation Original="Premade themes" Replace="미리 만들어진 테마"/>
+<Translation Original="Customize" Replace="커스터마이즈"/>
+<Translation Original="Main Font" Replace="메인 글꼴"/>
+<Translation Original="Body Font" Replace="본문 글꼴"/>
+<Translation Original="Enable Header" Replace="헤더 활성화"/>
+<Translation Original="Primary" Replace="주요"/>
+<Translation Original="Title Text" Replace="제목 텍스트"/>
+<Translation Original="Header Color" Replace="헤더 색깔"/>
+<Translation Original="Scroller Color" Replace="스크롤러 색깔"/>
+<Translation Original="Restore" Replace="복원"/>
+<Translation Original="Load optimal defaults" Replace="최적의 기본값 로드"/>
+
+
+
+
+</Table>
