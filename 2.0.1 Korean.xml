@@ -429,80 +429,80 @@
 <Translation Original="Headshots" Replace="헤드샷"/>
 <Translation Original="Shots" Replace="샷"/>
 <Translation Original="Completed Missions" Replace="미션 완료"/>
-<Translation Original="Crafted Items" Replace="製作的物品"/>
-<Translation Original="Looted Peds" Replace="掠夺"/>
-<Translation Original="Times Cheated" Replace="作弊次数"/>
-<Translation Original="Total Bounty" Replace="总赏金"/>
-<Translation Original="Cash Earned" Replace="赚取"/>
-<Translation Original="Cash Spend" Replace="支出"/>
-<Translation Original="Playing Time" Replace="游戏时间"/>
-<Translation Original="Completion" Replace="完成"/>
-<Translation Original="Add Cash" Replace="增加现金"/>
-<Translation Original="Remove Cash" Replace="移除现金"/>
-<Translation Original="Drop Cash" Replace="掉落现金"/>
-<Translation Original="Amount" Replace="数量"/>
-<Translation Original="Model" Replace="模型"/>
-<Translation Original="Cash Bag Drop" Replace="现金袋掉落"/>
-<Translation Original="Money Gun" Replace="金钱枪"/>
-<Translation Original="Total Money dropped " Replace="总金额下降"/>
+<Translation Original="Crafted Items" Replace=""/>
+<Translation Original="Looted Peds" Replace=""/>
+<Translation Original="Times Cheated" Replace=""/>
+<Translation Original="Total Bounty" Replace=""/>
+<Translation Original="Cash Earned" Replace=""/>
+<Translation Original="Cash Spend" Replace=""/>
+<Translation Original="Playing Time" Replace=""/>
+<Translation Original="Completion" Replace=""/>
+<Translation Original="Add Cash" Replace=""/>
+<Translation Original="Remove Cash" Replace=""/>
+<Translation Original="Drop Cash" Replace=""/>
+<Translation Original="Amount" Replace=""/>
+<Translation Original="Model" Replace=""/>
+<Translation Original="Cash Bag Drop" Replace=""/>
+<Translation Original="Money Gun" Replace=""/>
+<Translation Original="Total Money dropped " Replace=""/>
 <Translation Original="Misc Drop" Replace="기타 놓기"/>
 <Translation Original="Rain Weapons" Replace="떨어지는 무기"/>
 <Translation Original="Drop Ammo" Replace="탄약 놓기"/>
-<Translation Original="Give Items" Replace="刷食物"/>
-<Translation Original="Spawn Goodie Chest" Replace="刷食物箱"/>
-<Translation Original="Spawn Med Chest" Replace="刷医疗箱"/>
-<Translation Original="Spawn Cash Chest" Replace="刷金条箱"/>
-<Translation Original="Unlimited Items" Replace="无限物品"/>
-<Translation Original="Max Items" Replace="最大项目"/>
-<Translation Original="Custom Input (StringHash)" Replace="自定义输入 (Hash)"/>
-<Translation Original="Current Honor" Replace="荣誉值"/>
-<Translation Original="Set Honor" Replace="荣誉值数量"/>
-<Translation Original="Add Honor" Replace="增加"/>
-<Translation Original="Remove Honor" Replace="减少"/>
-<Translation Original="Add Positive" Replace="增加"/>
-<Translation Original="Add Negative" Replace="减少"/>
-<Translation Original="Custom Honor" Replace="自订荣誉值"/>
-<Translation Original="Current Bounty" Replace="赏金"/>
-<Translation Original="Bounty Value" Replace="赏金值"/>
-<Translation Original="Increase Bounty" Replace="增加赏金"/>
-<Translation Original="Decrease Bounty" Replace="减少赏金"/>
-<Translation Original="Clear Bounty" Replace="清除赏金"/>
-<Translation Original="States" Replace="状态"/>
+<Translation Original="Give Items" Replace=""/>
+<Translation Original="Spawn Goodie Chest" Replace=""/>
+<Translation Original="Spawn Med Chest" Replace=""/>
+<Translation Original="Spawn Cash Chest" Replace=""/>
+<Translation Original="Unlimited Items" Replace=""/>
+<Translation Original="Max Items" Replace=""/>
+<Translation Original="Custom Input (StringHash)" Replace="(Hash)"/>
+<Translation Original="Current Honor" Replace=""/>
+<Translation Original="Set Honor" Replace=""/>
+<Translation Original="Add Honor" Replace=""/>
+<Translation Original="Remove Honor" Replace=""/>
+<Translation Original="Add Positive" Replace=""/>
+<Translation Original="Add Negative" Replace=""/>
+<Translation Original="Custom Honor" Replace=""/>
+<Translation Original="Current Bounty" Replace=""/>
+<Translation Original="Bounty Value" Replace=""/>
+<Translation Original="Increase Bounty" Replace=""/>
+<Translation Original="Decrease Bounty" Replace=""/>
+<Translation Original="Clear Bounty" Replace=""/>
+<Translation Original="States" Replace=""/>
 <Translation Original="Lemoyne" Replace="雷莫恩"/>
-<Translation Original="West Elizabeth" Replace="西伊丽莎白"/>
-<Translation Original="New Hanover" Replace="新汉诺威"/>
-<Translation Original="Ambarino" Replace="安巴里诺"/>
-<Translation Original="New Austin" Replace="新奥斯汀"/>
+<Translation Original="West Elizabeth" Replace=""/>
+<Translation Original="New Hanover" Replace=""/>
+<Translation Original="Ambarino" Replace=""/>
+<Translation Original="New Austin" Replace=""/>
 <Translation Original="Cheat Codes" Replace="치트(핵) 코드"/>
 <Translation Original="Dreamcatchers" Replace="드림캐쳐"/>
 <Translation Original="Dino Bones" Replace="공룡뼈"/>
-<Translation Original="Rock Carvings" Replace="石刻"/>
-<Translation Original="Exotics" Replace="异国情调"/>
-<Translation Original="Legendary Animals Locations" Replace="传说动物地点"/>
-<Translation Original="Cigarette Cards" Replace="香烟卡"/>
-<Translation Original="Auto Collect All" Replace="自动收集全部"/>
-<Translation Original="Famous Gunslingers" Replace="着名枪手"/>
-<Translation Original="Artists and Poets" Replace="艺术家和诗人"/>
-<Translation Original="Vistas of America" Replace="美国远景"/>
-<Translation Original="Gems of Beauty" Replace="美丽的宝石"/>
-<Translation Original="Flora of North America" Replace="北美植物群"/>
-<Translation Original="Stars of the Stage" Replace="舞台之星"/>
-<Translation Original="Fauna of North America" Replace="北美动物群"/>
-<Translation Original="Marvels of Travel" Replace="旅行奇蹟"/>
-<Translation Original="World's Champions" Replace="世界冠军"/>
-<Translation Original="Amazing Inventions" Replace="惊人的发明"/>
-<Translation Original="Add Health Points" Replace="增加生命点"/>
-<Translation Original="Add Stamina Points" Replace="增加耐力点"/>
-<Translation Original="Add Dead Eye Points" Replace="增加死眼点"/>
-<Translation Original="Permanently" Replace="永久"/>
-<Translation Original="Max Health" Replace="最大生命"/>
-<Translation Original="Max Dead Eye" Replace="最大死眼"/>
-<Translation Original="Max Health Core" Replace="最大生命核心"/>
-<Translation Original="Max Stamina Core" Replace="最大耐力核心"/>
-<Translation Original="Max Dead Eye Core" Replace="最大死眼核心"/>
-<Translation Original="Temporary" Replace="暂时的"/>
-<Translation Original="Max Health" Replace="最大生命"/>
-<Translation Original="Max Dead Eye" Replace="最大死眼"/>
+<Translation Original="Rock Carvings" Replace=""/>
+<Translation Original="Exotics" Replace=""/>
+<Translation Original="Legendary Animals Locations" Replace=""/>
+<Translation Original="Cigarette Cards" Replace=""/>
+<Translation Original="Auto Collect All" Replace=""/>
+<Translation Original="Famous Gunslingers" Replace=""/>
+<Translation Original="Artists and Poets" Replace=""/>
+<Translation Original="Vistas of America" Replace=""/>
+<Translation Original="Gems of Beauty" Replace=""/>
+<Translation Original="Flora of North America" Replace=""/>
+<Translation Original="Stars of the Stage" Replace=""/>
+<Translation Original="Fauna of North America" Replace=""/>
+<Translation Original="Marvels of Travel" Replace=""/>
+<Translation Original="World's Champions" Replace=""/>
+<Translation Original="Amazing Inventions" Replace=""/>
+<Translation Original="Add Health Points" Replace=""/>
+<Translation Original="Add Stamina Points" Replace=""/>
+<Translation Original="Add Dead Eye Points" Replace=""/>
+<Translation Original="Permanently" Replace=""/>
+<Translation Original="Max Health" Replace=""/>
+<Translation Original="Max Dead Eye" Replace=""/>
+<Translation Original="Max Health Core" Replace=""/>
+<Translation Original="Max Stamina Core" Replace=""/>
+<Translation Original="Max Dead Eye Core" Replace=""/>
+<Translation Original="Temporary" Replace=""/>
+<Translation Original="Max Health" Replace=""/>
+<Translation Original="Max Dead Eye" Replace=""/>
 <Translation Original="Custom" Replace="커스텀"/>
 <Translation Original="Dead Eye Core" Replace="데드아이 코어"/>
 //food
